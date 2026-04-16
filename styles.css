@@ -1,0 +1,21 @@
+/* Place your CSS styles in this file */
+ 
+h1 {text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold; 
+    color: palevioletred;
+}
+
+body {background-color:pink;
+}
+
+marquee {font-size: 24;color: lightpink;
+}
+
+ul {list-style-type: none;
+background-color:paleturquoise;
+border:4px solid lightcyan;
+}
+
+li {display: inline;
+}
