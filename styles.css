@@ -1,12 +1,12 @@
 /* Place your CSS styles in this file */
  
 h1 {text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     font-weight: bold; 
     color: palevioletred;
 }
 
-body {background-color:pink;
+body {background-color:#5D0E11;
 }
 
 marquee {font-size: 24;color: lightpink;
