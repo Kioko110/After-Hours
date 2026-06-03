@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After Hours - Product</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="design.html">Design</a></li>
+        </ul>
+    </nav>
+
+    <div class="title">
+        <h1>AFTER HOURS QUIZ</h1>
+        <p>Pilih kategori yang ingin kamu kerjakan</p>
+    </div>
+
+    <div class="choice">
+
+        <div class="card" onclick="startQuiz('ipa')">
+            <h2>🔬 IPA</h2>
+            <p>
+                Uji kemampuanmu dalam Biologi, Fisika, dan Kimia kelas 10.
+            </p>
+        </div>
+
+        <div class="card" onclick="startQuiz('ips')">
+            <h2>🌍 IPS</h2>
+            <p>
+                Uji kemampuanmu dalam Geografi, Sejarah, dan Ekonomi kelas 10.
+            </p>
+        </div>
+
+    </div>
+
+    <div id="quizContainer"></div>
+
+    <div id="result">
+        <h2>HASIL QUIZ</h2>
+        <p id="scoreText"></p>
+        <p id="message"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
+```
