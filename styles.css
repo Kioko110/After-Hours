@@ -346,3 +346,65 @@ button:hover{
         transform:translateY(0);
     }
 }
+
+/* ABOUT CARDS */
+
+.about-cards{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+    margin-top:40px;
+}
+
+.about-card{
+
+    width:320px;
+
+    background:
+    linear-gradient(
+    145deg,
+    rgba(107,0,0,.95),
+    rgba(75,0,0,.95)
+    );
+
+    border:1px solid rgba(255,215,0,.25);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    transition:.4s;
+}
+
+.about-card:hover{
+
+    transform:
+    translateY(-10px);
+
+    box-shadow:
+    0 0 30px rgba(255,215,0,.25);
+}
+
+.about-card h3{
+
+    color:#FFD700;
+
+    margin-bottom:15px;
+
+    text-align:center;
+
+    font-size:24px;
+}
+
+.about-card p{
+
+    line-height:1.8;
+
+    text-align:center;
+}
