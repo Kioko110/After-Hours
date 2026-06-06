@@ -39,15 +39,11 @@ nav a:hover{
 
 /* HERO */
 
-.hero{
-    text-align:center;
-    padding:70px 20px;
-}
-
-.title h1{
+.main-title{
     color:#FFD700;
     font-size:65px;
     letter-spacing:5px;
+    text-align:center;
 
     text-shadow:
     0 0 5px #FFD700,
