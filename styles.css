@@ -44,14 +44,16 @@ nav a:hover{
     padding:70px 20px;
 }
 
-.hero h1{
+.title h1{
     color:#FFD700;
     font-size:65px;
     letter-spacing:5px;
 
     text-shadow:
-    0 0 10px rgba(255,215,0,0.3),
-    0 0 20px rgba(255,215,0,0.2);
+    0 0 5px #FFD700,
+    0 0 10px #FFD700,
+    0 0 20px rgba(255,215,0,0.5),
+    0 0 40px rgba(255,215,0,0.3);
 
     animation:fadeIn 2s;
 }
